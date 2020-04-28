@@ -16,6 +16,6 @@
     }
   },
   "scripts": {
-    "postdeploy": "bin/post_deploy_tasks"
+    "postdeploy": "bundle exec rake db:migrate"
   }
 }
